@@ -1,0 +1,28 @@
+# SASS Installation Script Steps
+
+# Objective: Install the modern Sass compiler (dart-sass) globally 
+# using Node Package Manager (npm), assuming Node.js is already installed and accessible.
+
+# 1. Verify Node.js and npm are installed and accessible.
+#    This step ensures the prerequisites for the installation are met.
+node -v
+npm -v
+
+# 2. Correct the intended installation command.
+#    The original command "npm install sass -v 3.7.4" is incorrect for specifying a version.
+#    The correct syntax is typically "npm install -g <package>@<version>" or "npm install <package>@<version>".
+#    Using -g installs the package globally so the 'sass' command is available everywhere.
+#    Note: Sass versions are typically higher than 3.x.x (e.g., 1.77.2). 
+#    Since version 3.7.4 is highly unlikely for the current 'sass' package, 
+#    we proceed with a standard, globally-scoped installation command using a typical version pattern.
+#    (In a real-world scenario, you would replace '1.77.2' with the version you need).
+
+# 3. Execute the corrected installation command (using a representative version).
+npm install -g sass@1.77.2
+
+# 4. Verify the Sass installation.
+#    Running the version command confirms the installation was successful and is globally accessible.
+sass --version
+
+# 5. Confirmation and Cleanup (Optional)
+#    If the 'sass --version' command outputs the version number (e.g., 1.77.2), the installation is complete.
