@@ -15,10 +15,10 @@ npm -v
 #    Note: Sass versions are typically higher than 3.x.x (e.g., 1.77.2). 
 #    Since version 3.7.4 is highly unlikely for the current 'sass' package, 
 #    we proceed with a standard, globally-scoped installation command using a typical version pattern.
-#    (In a real-world scenario, you would replace '1.77.2' with the version you need).
+#    (In a real-world scenario, you would replace '3.7.4' with the version you need).
 
 # 3. Execute the corrected installation command (using a representative version).
-npm install -g sass@1.77.2
+npm install -g sass@3.7.4
 
 # 4. Verify the Sass installation.
 #    Running the version command confirms the installation was successful and is globally accessible.
